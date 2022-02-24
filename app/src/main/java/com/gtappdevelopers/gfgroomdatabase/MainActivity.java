@@ -21,6 +21,15 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
+    // source: https://github.com/ChaitanyaMunje/GFG-Room-Database
+    // tutorial: https://www.geeksforgeeks.org/how-to-perform-crud-operations-in-room-database-in-android/
+
+/* build error
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:compileDebugJavaWithJavac'
+clean project / rebuild project / update in build.gradle to 7.0.4 and gradle-wrapper.properties to 7.4
+zusätzlich Java 1.8 entfernt aus build.gradle und IDEA settings, buildTools entfernt
+ */
+
 
     //creating a variables for our recycler view.
     private RecyclerView coursesRV;
